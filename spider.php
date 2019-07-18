@@ -1,6 +1,7 @@
 <?php
 set_time_limit(0);
 
+
 var_dump(preg_match('/src=\"(.*?)\" title=\"点击看大图\" alt=\"(*)\"/','<img src="https://img3.doubanio.com/view/subject/l/public/s10877741.jpg" title="点击看大图" alt="Saint Francis of Assisi" rel="v:photo" style="width: 135px">'));
 
 //for ($pageno = 1 ; $pageno < 18; $pageno ++) {
